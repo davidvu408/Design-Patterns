@@ -11,7 +11,7 @@ public class Adaptee {
 	}
 
 	public boolean connectionEstabished() {
-		int n = new Random().nextInt(1);
+		int n = new Random().nextInt(2);
 		if (n == 0) { return false; } 
 		else { return true; }
 	}
