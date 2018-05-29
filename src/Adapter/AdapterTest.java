@@ -1,5 +1,7 @@
 package Adapter;
 
+import java.util.Random;
+
 public class AdapterTest {
 
 	public static void main(String[] args) {
@@ -12,6 +14,9 @@ public class AdapterTest {
 		adapter.connect();
 		System.out.println(adapter.isConnected());
 		System.out.println(adapter.getIPAddress());
+		for(int i = 0; i < 10; i++) {
+			System.out.println(new Random().nextInt(2));
+		}
 	}
 
 }

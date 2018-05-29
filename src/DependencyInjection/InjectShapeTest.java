@@ -1,13 +1,15 @@
 package DependencyInjection;
 
-import Shapes.*;
+import Shapes.Circle;
+import Shapes.Square;
+import Shapes.Triangle;
 
 public class InjectShapeTest {
 	public static void main(String[] args) {
 		Triangle t = new Triangle();
 		Circle c = new Circle();
 		Square s = new Square();
-		
+		/**
 		try {
 			// Constructor Injection
 			InjectShape test_two = new InjectShape(t);
@@ -30,6 +32,6 @@ public class InjectShapeTest {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
+	**/
 	}
 }

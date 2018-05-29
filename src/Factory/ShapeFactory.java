@@ -14,19 +14,19 @@ import Shapes.*;
  */
 public class ShapeFactory {
 
-	Shape createTriangle() {
+	public Shape createTriangle() {
 		return new Triangle();
 	}
 
-	Shape createCircle() {
+	public Shape createCircle() {
 		return new Circle();
 	}
 
-	Shape createSquare() {
+	public Shape createSquare() {
 		return new Square();
 	}
 
-	Shape createShape(String name) throws Exception {
+	public Shape createShape(String name) throws Exception {
 		if (name.equals("Circle")) {
 			return new Circle();
 		} else if (name.equals("Square")) {
